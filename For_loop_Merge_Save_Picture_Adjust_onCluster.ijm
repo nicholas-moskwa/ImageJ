@@ -147,8 +147,8 @@ function Merge_File(dirsource, dirresult, File_ID, DAPI_Suffix, Roll_DAPI, Min_D
 	print("A DAPi and Cy2 image has been made: " + dirresult + File_ID + "DAPI.Cy2.jpeg");
 	
 	print("======================================================");
-	eval("script","System.exit(0);");
 	}
+eval("script","System.exit(0);");
 //The purpose of "Merge_File" function is to open all channel images taken on a microscope, manipulate them, and merge them into single channel images, channel + DAPI images, and an all channel merge image
 //Merge_File(dirsource, dirresult, File_ID, DAPI_Suffix, Roll_DAPI, Min_DAPI, Max_DAPI, GFP_Suffix, Roll_GFP, Min_GFP, Max_GFP, Cy3_Suffix, Roll_Cy3, Min_Cy3, Max_Cy3, Cy5_Suffix, Roll_Cy5, Min_Cy5, Max_Cy5)
 
